@@ -9,7 +9,7 @@ export default class AboutUs extends Component {
 
             <div className="" style={{ zIndex: 98 }}>
                 <div className='bg-image' style={{ width: '100%', height: '280px', marginBlockStart: '20px' }}>
-                    <img src='/Footer1.jpg' className='img-fluid' alt='Sample' />
+                    <img src='/Footer1.jpg' className='img-fluid' id="image" alt='Sample' />
                     <div className='mask' style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)' }}>
                         <div className='d-flex justify-content-center align-items-center h-100'>
                             <div className='text-white mb-0'>
@@ -31,7 +31,7 @@ export default class AboutUs extends Component {
                     <img style={{ width: '120%', height: '95px' }} src='/branchesBar.jpeg' className='img-fluid' alt='Sample' />
                 </div>
 
-                <div style={{marginBlockStart:'5%', marginLeft:'14%'}}>
+                <div style={{marginBlockStart:'5%', marginLeft:'14%',paddingRight:'40px'}}>
                     <MDBCard style={{ maxWidth: '70rem' }}>
                         <MDBCardBody>
                             <center>
@@ -40,7 +40,7 @@ export default class AboutUs extends Component {
                             <br/>
                             <h3 className="text-warning">Vision Cargo</h3>
                             
-                            <MDBCardText >
+                            <MDBCardText class="text1" >
                                                                
                                 “Vision cargo” is a cargo system which located in Korea that doing a door-to-door cargo system. “Unique Importers” is the company in Sri Lanka that delivers the cargos island wide that is shipped by the Korean company. Furthermore, there is a showroom for the Sri Lankan buyers that sells imported goods from Korea as a side business running by these two companies.
 
