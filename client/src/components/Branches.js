@@ -31,7 +31,7 @@ export default class Branches extends Component {
           <img style={{ width: '120%', height: '95px' }} src='/branchesBar.jpeg' className='img-fluid' alt='Sample' />
         </div>
 
-        <div style={{ marginBlockStart: '2%', marginLeft: '15%' }}>
+        <div class="branch2" style={{ marginBlockStart: '2%', marginLeft: '15%' }}>
           <MDBCard style={{ maxWidth: '22rem' }}>
             <MDBCardBody>
               <center>
@@ -61,7 +61,7 @@ export default class Branches extends Component {
           </MDBCard>
         </div>
 
-        <div style={{ marginBlockStart: '-34%', marginLeft: '60%' }}>
+        <div class="branch" style={{ marginBlockStart: '-34%', marginLeft: '60%' }}>
           <MDBCard style={{ maxWidth: '22rem' }}>
             <MDBCardBody>
               <center>

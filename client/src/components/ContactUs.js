@@ -3,49 +3,11 @@ import React, { Component } from 'react';
 export default class ContactUs extends Component {
     render() {
         return (
+            <div className="cargo">
+                <iframe className="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.9829624396084!2d79.9511576148655!3d7.011286294935427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2f927d990c7a7%3A0xe4cfd3e4cb8d0904!2sKorean%20kade!5e0!3m2!1sen!2slk!4v1659436150014!5m2!1sen!2slk" width="100%" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
+                        
 
-            <div className='bg-image' style={{ width: '100%', marginBlockStart: '-11%' }}>
-                <img src='/ContactUsMap.png' className='img-fluid' alt='Sample' />
-                <div className='mask' style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)' }}>
-                    <div className='d-flex justify-content-center align-items-center h-100'>
-                        <div className='text-white mb-0'>
-                            <br></br>
-                            <br/>
-                            <br/>
-                            <center>
-                                <h1 >CONTACT US</h1>
-                            </center>
-                            <br></br>
-                            <center>
-                                <h5 className="text-sm-start">
-                                    
-                                    Vision Cargo (Pvt) Ltd | Unique Group<br/>
-                                    NO:104,Ganemulla Road,Kadawatha<br/>
-
-                                    Telephone : (+94) 011 7 759 759<br/>
-
-                                    Customer Service: (+94) 0117 759 759<br/>
-
-                                    HOTLINE: (+94) 011 7 759 759<br/>
-
-                                    PICK UP DESK: (+94) 011 7 75 97 79<br/>
-
-                                    WHATSAPP PICK UP: (+94) 0770 13 22 32<br/>
-
-                                    Email : info@visioncargo.lk
-                                    
-                                    </h5>
-                            </center>
-                            <br/>
-                            <center>
-                                <a href="/branches">
-                            <button  className="btn btn-warning text-dark">BRANCHES</button>
-                            </a>
-                            </center>
-                        </div>
-                    </div>
-                </div>
             </div>
 
 
